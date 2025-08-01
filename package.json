@@ -1,0 +1,18 @@
+{
+	"name": "script-hosting-for-the-handy-devices",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"cf-typegen": "wrangler types"
+	},
+	"dependencies": {
+		"hono": "4.7.11",
+		"@upstash/redis": "1.34.6"
+	},
+	"devDependencies": {
+		"typescript": "^5.5.2",
+		"wrangler": "4.19.1"
+	}
+}

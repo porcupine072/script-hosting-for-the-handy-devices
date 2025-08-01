@@ -1,0 +1,3 @@
+UPSTASH_REDIS_REST_URL="https://abc-pretty-parrot-12345.upstash.io"
+UPSTASH_REDIS_REST_TOKEN="AXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+API_SECRET="replace-this-with-your-own-secret"

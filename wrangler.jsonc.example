@@ -1,0 +1,26 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "script-hosting-for-the-handy-devices",
+	"main": "src/adapters/cloudflare/worker-cf.ts",
+	"compatibility_date": "2025-07-09",
+	"observability": {
+		"enabled": false
+	},
+	"preview_urls": true,
+	/**
+	 * Environment Variables
+	 * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
+	 */
+	 "vars": {
+		 "SCRIPT_TTL_SECONDS": "18000",  // 5 h
+		 "FILE_UPLOAD_MAX_BYTES":  "10485760" // 10 MiB
+	 }
+	/**
+	 * Note: Use secrets to store sensitive data.
+	 * https://developers.cloudflare.com/workers/configuration/secrets/
+	 */
+}
