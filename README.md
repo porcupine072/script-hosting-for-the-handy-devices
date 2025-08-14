@@ -1,6 +1,6 @@
 # Script Hosting For The Handy Devices
 
-Disclaimer: **This is an independent, open-source project and is not affiliated with, endorsed by, or supported by Sweet Tech AS or The Handy.**
+Disclaimer: **This is an open-source project and is not affiliated with, endorsed by, or supported by Sweet Tech AS or The Handy.**
 
 This project exists for storing and serving scripts to The Handy devices.
 
@@ -194,4 +194,4 @@ See LICENSE.md.
 
 ---
 
-**This is an independent, open-source project and is not affiliated with, endorsed by, or supported by Sweet Tech AS or The Handy**
+**This is an open-source project and is not affiliated with, endorsed by, or supported by Sweet Tech AS or The Handy**
